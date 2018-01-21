@@ -2,8 +2,20 @@
   "name": "codenames-online",
   "version": "0.0.1",
   "description": "online version of the classic table top game",
+  "main": "index.js",
   "dependencies": {
     "express": "^4.15.2",
     "socket.io": "^2.0.4"
   }
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node index.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SimonKienzler/codenames-online.git"
+  },
 }
